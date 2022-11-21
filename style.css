@@ -7,8 +7,8 @@ body, html {
     background-image: url("./img/homepagebanner.jpg");
     height: 40%; 
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: repeat;
   }
   * {
     box-sizing: border-box;
@@ -18,31 +18,32 @@ body, html {
     margin: 0;
   }
   
-  /* Style the header */
+/*home page banner*/
   .header {
-    background-color: #f1f1f1;
-    padding: 20px;
+    background-color: #dadada;
     text-align: center;
   }
   
-  /* Style the top navigation bar */
+/*home page banner*/
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #4a4a4a;
   }
   
-  /* Style the topnav links */
+/*home page banner*/
   .topnav a {
-    float: left;
+    float: middle;
     display: block;
-    color: #f2f2f2;
+    color: #dadada;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: #2b2b2b;
+    border-radius: 12px;
   }
   
   /* Change color on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #dadada;
     color: black;
   }
