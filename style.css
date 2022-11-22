@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body, html {
     height: 100%;
     margin: 0;
@@ -80,3 +81,55 @@ body, html {
   padding: 15px;
 }
 
+=======
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.homepagebanner {
+  background-image: url("./img/homepage/homepagebanner.jpg");
+  height: 30%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #4d4d4d;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #4d4d4d;
+  color: #dadada;
+
+}
+
+nav ul li a:hover {
+  background-color: #3a3a3a;
+  border-radius: 12px;
+
+}
+
+nav ul li a:link {
+  text-decoration: none;
+}
+>>>>>>> 9fb7b2e944a990d30cf3a9017aea29ba8759718f
