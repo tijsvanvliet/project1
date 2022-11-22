@@ -21,6 +21,7 @@ body {
 }
 
 nav {
+height: 66px;
   background-color: #4d4d4d;
 }
 
@@ -47,4 +48,9 @@ nav ul li a:hover {
 
 nav ul li a:link {
   text-decoration: none;
+}
+.contacts{
+  background-color: #4d4d4d;
+  height: 462px;
+  width: 218px;
 }
