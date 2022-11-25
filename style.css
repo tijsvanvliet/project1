@@ -1,3 +1,90 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .homepagebanner {
+    background-image: url("./img/homepagebanner.jpg");
+    height: 40%; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+/*home page banner*/
+  .header {
+    background-color: #dadada;
+    text-align: center;
+  }
+  
+/*home page banner*/
+  .topnav {
+    overflow: hidden;
+    background-color: #4a4a4a;
+  }
+  
+/*home page banner*/
+  .topnav a {
+    float: middle;
+    display: block;
+    color: #dadada;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #2b2b2b;
+    border-radius: 12px;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #dadada;
+    color: black;
+  }
+
+
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-color: rgba(181, 243, 249, .4);
+  width: 70%;
+  margin: 0 auto;
+  border: #75a29c solid;
+  
+}
+
+.mapsname {
+  background-color: rgba(181, 243,  249, .4);
+  width: 30%;
+  border: #75a29c solid;
+  padding: 15px;
+}
+
+.gamemode {
+  background-color: rgba(181, 243,  249, .4);
+  width: 30%;
+  border: #75a29c solid;
+  padding: 15px;
+}
+
+
 body,
 html {
   height: 100%;
@@ -50,6 +137,7 @@ nav ul li a:hover {
 nav ul li a:link {
   text-decoration: none;
 }
+
 .contacts{
   background-color: #4d4d4d;
   height: 462px;
