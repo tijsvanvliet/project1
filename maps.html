@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Overwatch 2 Maps</title>
     <link rel="icon" type="image/x-icon" href="images/ow2.png">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         img {
-            width: 30%;
+            width: 100%;
             height: 200px;
+            padding: 10px;        
         }
+     
+
+
     </style>
 </head>
 <body>
@@ -19,12 +23,17 @@
 
         
         <header>
-            <h1 style="text-align: center">Maps Currently in Rotation</h1>
+            <div class="tabs">
+            <h1 class="mapsname" style="text-align: center">Maps</h1>
+            <h1 class="gamemode" style="text-align: center">Gamemode</h1>
+        </div>
         </header>
         <!--Each map of each type of map current in rotation in a gridlayout with 3 columns-->
+       <div class="box">
         <div>
             <h1>Control:</h1>
             <div class="grid-container">
+                <div class="wrapper">
                 <div>
                     <img src="img/maps/Ilios.jpg" alt="The map Ilios from Overwatch">
                     <h2>Ilios</h2>
@@ -37,6 +46,8 @@
                     <img src="img/maps/Oasis.jpg" alt="The map Oasis from Overwatch">
                     <h2>Oasis</h2>
                 </div>
+            </div>
+            <div class="wrapper">
                 <div>
                     <img src="img/maps/Nepal_loading_screen.jpg" alt="The map Nepal from Overwatch">
                     <h2>Nepal</h2>
@@ -46,8 +57,10 @@
                     <h2>Busan</h2>
                 </div>
             </div>
+            </div>
             <h1>Escort:</h1>
             <div class="grid-container">
+                <div class="wrapper">
                 <div>
                     <img src="img/maps/Monte_Carlo.jpg" alt="The map Circuit Royal from Overwatch">
                     <h2>Circuit Royal</h2>
@@ -60,6 +73,8 @@
                     <img src="img/maps/Route_66.jpg" alt="The map Route 66 from Overwatch">
                     <h2>Route 66</h2>
                 </div>
+            </div>
+            <div class="wrapper">
                 <div>
                     <img src="img/maps/Gibraltar.jpg" alt="The map Watchpoint: Gibralter from Overwatch">
                     <h2>Watchpoint: Gibralter</h2>
@@ -69,8 +84,10 @@
                     <h2>Junkertown</h2>
                 </div>
             </div>
+            </div>
             <h1>Hybrid:</h1>
             <div class="grid-container">
+                <div class="wrapper">
                 <div>
                     <img src="img/maps/midtown.jpg" alt="The map Midtown from Overwatch">
                     <h2>Midtown</h2>
@@ -83,6 +100,8 @@
                     <img src="img/maps/Eichenwalde.jpg" alt="The map Eichenwalde from Overwatch">
                     <h2>Eichenwalde</h2>
                 </div>
+            </div>
+            <div class="wrapper">
                 <div>
                     <img src="img/maps/Hollywood-set.jpg" alt="The map Hollywood from Overwatch">
                     <h2>Hollywood</h2>
@@ -92,8 +111,10 @@
                     <h2>Paraíso</h2>
                 </div>
             </div>
+            </div>
             <h1>Push:</h1>
             <div class="grid-container">
+                <div class="wrapper">
                 <div>
                     <img src="img/maps/Colosseo.jpg" alt="The map Coloseo from Overwatch">
                     <h2>Colosseo</h2>
@@ -107,8 +128,11 @@
                     <h2>Esperança</h2>
                 </div>
             </div>
+            </div>
         </div>
         <p>Image Credit: <a href="https://overwatch.fandom.com/wiki/Maps">https://overwatch.fandom.com/wiki/Maps</a></p>
+    </div>
     </main>
+    
 </body>
 </html>
