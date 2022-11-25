@@ -19,38 +19,6 @@ body, html {
   body {
     margin: 0;
   }
-  
-/*home page banner*/
-  .header {
-    background-color: #dadada;
-    text-align: center;
-  }
-  
-/*home page banner*/
-  .topnav {
-    overflow: hidden;
-    background-color: #4a4a4a;
-  }
-  
-/*home page banner*/
-  .topnav a {
-    float: middle;
-    display: block;
-    color: #dadada;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #2b2b2b;
-    border-radius: 12px;
-  }
-  
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #dadada;
-    color: black;
-  }
-
-
 
 .wrapper {
   display: flex;
@@ -114,7 +82,6 @@ height: 66px;
   width: 80%;
   justify-content: center;
   margin: auto;
-
 }
 
 nav ul {
@@ -143,11 +110,12 @@ nav ul li a:link {
 }
 
 .contacts{
-  background-color: #4d4d4d;
+  background-color:  rgba(128, 128, 128, .7);
   height: 462px;
   width: 218px;
   border-radius: 20px;
   position: fixed;
+
 }
 div.contacts p {
   padding: 1rem;
@@ -159,8 +127,8 @@ div.contacts ul {
 }
 .homepagevids{
   display: flex;
-  height: 1000px;
-  background-color: #3a3a3a;
+  height: 500px;
+  background-color: rgba(128, 128, 128, .7);
   width: 1000px;
   justify-content: center;
   margin: auto;
@@ -176,4 +144,36 @@ div.contacts ul {
     min-width: 100%; 
     min-height: 100%;
     z-index: -3;
+}
+.overwatchtrailers1 {
+  height: 400px;
+  width: 400px;
+}
+.homepagevids ul li h1{
+  color: #dadada;
+}
+
+.homepagevids ul li p {
+color: #dadada;
+}
+.overwatchlogo {
+color: #dadada;
+background-color: #ffa200;
+border-radius: 5px;
+}
+
+.homepagevids1{
+  height: auto;
+  width: auto;
+  padding: 40px;
+}
+.homepagevids  {
+  height: 300px;
+  padding: 5px;
+
+}
+.homepagetext {
+  background-color: rgba(128, 128, 128, .5);
+  border-radius: 15px;
+  width: 400px;
 }
