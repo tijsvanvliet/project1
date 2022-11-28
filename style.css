@@ -1,27 +1,65 @@
-body,
-html {
-  height: 100%;
-  margin: 0;
+  
+  .homepagebanner {
+    background-image: url("./img/homepagebanner.jpg");
+    height: 40%; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
 }
 
-.homepagebanner {
-  background-image: url("./img/homepage/homepagebanner.jpg");
-  height: 30%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
+.tabs {
+  display: flex;
+  justify-content: center;
 }
+
+.box {
+  background-color: rgba(181, 243, 249, .4);
+  width: 70%;
+  margin: 0 auto;
+  border: #75a29c solid;
+  
+}
+
+.mapsname {
+  background-color: rgba(181, 243,  249, .4);
+  width: 30%;
+  border: #75a29c solid;
+  padding: 15px;
+}
+
+.gamemode {
+  background-color: rgba(181, 243,  249, .4);
+  width: 30%;
+  border: #75a29c solid;
+  padding: 15px;
+}
+
 
 * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
+
 
 nav {
+height: 66px;
   background-color: #4d4d4d;
+  border-radius: 20px;
+  width: 80%;
+  justify-content: center;
+  margin: auto;
 }
 
 nav ul {
@@ -29,14 +67,14 @@ nav ul {
   margin: 0;
   padding: 0;
   justify-content: center;
+  list-style-type: none;
 }
 
 nav ul li a {
   display: inline-block;
-  padding: 1rem;
+  padding: 1.4rem;
   background-color: #4d4d4d;
   color: #dadada;
-
 }
 
 nav ul li a:hover {
@@ -48,6 +86,7 @@ nav ul li a:hover {
 nav ul li a:link {
   text-decoration: none;
 }
+
 
 .btn {
   background-color: DodgerBlue;
@@ -95,3 +134,73 @@ div.media-text img.img2, div.media-text img.img4 {
     object-fit: cover;
     padding-right: 5px;
 }
+
+.contacts{
+  background-color:  rgba(128, 128, 128, .7);
+  height: 462px;
+  width: 218px;
+  border-radius: 20px;
+  position: fixed;
+
+}
+div.contacts p {
+  padding: 1rem;
+  color: #dadada;
+}
+
+div.contacts ul {
+  list-style-type: none;
+}
+.homepagevids{
+  display: flex;
+  height: 500px;
+  background-color: rgba(128, 128, 128, .7);
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+}
+.homepagevids li {
+  list-style-type: none;
+
+}
+#homepagevideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -3;
+}
+.overwatchtrailers1 {
+  height: 400px;
+  width: 400px;
+}
+.homepagevids ul li h1{
+  color: #dadada;
+}
+
+.homepagevids ul li p {
+color: #dadada;
+}
+.overwatchlogo {
+color: #dadada;
+background-color: #ffa200;
+border-radius: 5px;
+}
+
+.homepagevids1{
+  height: auto;
+  width: auto;
+  padding: 40px;
+}
+.homepagevids  {
+  height: 300px;
+  padding: 5px;
+
+}
+.homepagetext {
+  background-color: rgba(128, 128, 128, .5);
+  border-radius: 15px;
+  width: 400px;
+}
+
