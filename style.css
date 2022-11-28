@@ -52,6 +52,7 @@ body, html {
 
 
 
+
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -63,7 +64,7 @@ body, html {
 }
 
 .box {
-  background-color: rgba(181, 243, 249, .4);
+  background-color: rgba(181, 243, 249, .5);
   width: 70%;
   margin: 0 auto;
   border: #75a29c solid;
@@ -177,3 +178,4 @@ div.contacts ul {
     min-height: 100%;
     z-index: -3;
 }
+
