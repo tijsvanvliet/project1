@@ -1,9 +1,3 @@
-
-
-body, html {
-    height: 100%;
-    margin: 0;
-  }
   
   .homepagebanner {
     background-image: url("./img/homepagebanner.jpg");
@@ -19,38 +13,6 @@ body, html {
   body {
     margin: 0;
   }
-  
-/*home page banner*/
-  .header {
-    background-color: #dadada;
-    text-align: center;
-  }
-  
-/*home page banner*/
-  .topnav {
-    overflow: hidden;
-    background-color: #4a4a4a;
-  }
-  
-/*home page banner*/
-  .topnav a {
-    float: middle;
-    display: block;
-    color: #dadada;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #2b2b2b;
-    border-radius: 12px;
-  }
-  
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #dadada;
-    color: black;
-  }
-
-
 
 
 .wrapper {
@@ -86,27 +48,11 @@ body, html {
 }
 
 
-body,
-html {
-  height: 100%;
-  margin: 0;
-}
-
-.homepagebanner {
-  background-image: url("./img/homepage/homepagebanner.jpg");
-  height: 30%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-}
-
 * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
+
 
 nav {
 height: 66px;
@@ -115,7 +61,6 @@ height: 66px;
   width: 80%;
   justify-content: center;
   margin: auto;
-
 }
 
 nav ul {
@@ -143,12 +88,61 @@ nav ul li a:link {
   text-decoration: none;
 }
 
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+div.background-media{
+  background-image: url('./img/mediapage.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div.media-text p {
+  opacity: 0.9;
+  background-color: #333;
+  color: white;
+}
+
+h1.media-page-title {
+  color: white;
+}
+
+
+
+.img3{
+  width: 25%;
+  object-fit: cover;
+  margin-right: 1150px;
+}
+
+div.media-text img.img2, div.media-text img.img4 {
+    margin-left: 1100px;
+    width: 30%;
+    object-fit: cover;
+    padding-right: 5px;
+}
+
 .contacts{
-  background-color: #4d4d4d;
+  background-color:  rgba(128, 128, 128, .7);
   height: 462px;
   width: 218px;
   border-radius: 20px;
   position: fixed;
+
 }
 div.contacts p {
   padding: 1rem;
@@ -160,8 +154,8 @@ div.contacts ul {
 }
 .homepagevids{
   display: flex;
-  height: 1000px;
-  background-color: #3a3a3a;
+  height: 500px;
+  background-color: rgba(128, 128, 128, .7);
   width: 1000px;
   justify-content: center;
   margin: auto;
@@ -178,4 +172,39 @@ div.contacts ul {
     min-height: 100%;
     z-index: -3;
 }
+<<<<<<< HEAD
+=======
+.overwatchtrailers1 {
+  height: 400px;
+  width: 400px;
+}
+.homepagevids ul li h1{
+  color: #dadada;
+}
+
+.homepagevids ul li p {
+color: #dadada;
+}
+.overwatchlogo {
+color: #dadada;
+background-color: #ffa200;
+border-radius: 5px;
+}
+
+.homepagevids1{
+  height: auto;
+  width: auto;
+  padding: 40px;
+}
+.homepagevids  {
+  height: 300px;
+  padding: 5px;
+
+}
+.homepagetext {
+  background-color: rgba(128, 128, 128, .5);
+  border-radius: 15px;
+  width: 400px;
+}
+>>>>>>> cb05c9802cd62647de42b59ab9697860ef8c8fcd
 
