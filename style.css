@@ -5,20 +5,11 @@ body, html {
     margin: 0;
   }
   
-  .homepagebanner {
-    background-image: url("./img/homepagebanner.jpg");
-    height: 40%; 
-    background-position: center;
-    background-size: cover;
-    background-repeat: repeat;
-  }
+
   * {
     box-sizing: border-box;
   }
   
-  body {
-    margin: 0;
-  }
 
 .wrapper {
   display: flex;
@@ -52,16 +43,9 @@ body, html {
   padding: 15px;
 }
 
-
-body,
-html {
-  height: 100%;
-  margin: 0;
-}
-
 .homepagebanner {
   background-image: url("./img/homepage/homepagebanner.jpg");
-  height: 30%;
+  height: 40%;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -160,6 +144,7 @@ color: #dadada;
 color: #dadada;
 background-color: #ffa200;
 border-radius: 5px;
+border-color: #ffa200;
 }
 
 .homepagevids1{
@@ -170,10 +155,14 @@ border-radius: 5px;
 .homepagevids  {
   height: 300px;
   padding: 5px;
-
+border-radius: 13px;
 }
 .homepagetext {
   background-color: rgba(128, 128, 128, .5);
   border-radius: 15px;
   width: 400px;
+}
+header {
+  padding: 1rem;
+
 }
