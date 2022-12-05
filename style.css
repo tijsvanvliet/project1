@@ -1,15 +1,10 @@
-
-
-body, html {
-    height: 100%;
-    margin: 0;
-  }
   
 
   * {
     box-sizing: border-box;
   }
   
+
 
 .wrapper {
   display: flex;
@@ -22,7 +17,7 @@ body, html {
 }
 
 .box {
-  background-color: rgba(181, 243, 249, .4);
+  background-color: rgba(181, 243, 249, .5);
   width: 70%;
   margin: 0 auto;
   border: #75a29c solid;
@@ -43,21 +38,12 @@ body, html {
   padding: 15px;
 }
 
-.homepagebanner {
-  background-image: url("./img/homepage/homepagebanner.jpg");
-  height: 40%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-}
 
 * {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
+
 
 nav {
 height: 66px;
@@ -91,6 +77,54 @@ nav ul li a:hover {
 
 nav ul li a:link {
   text-decoration: none;
+}
+
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+div.background-media{
+  background-image: url('./img/mediapage.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div.media-text p {
+  opacity: 0.9;
+  background-color: #333;
+  color: white;
+}
+
+h1.media-page-title {
+  color: white;
+}
+
+
+
+.img3{
+  width: 25%;
+  object-fit: cover;
+  margin-right: 1150px;
+}
+
+div.media-text img.img2, div.media-text img.img4 {
+    margin-left: 1100px;
+    width: 30%;
+    object-fit: cover;
+    padding-right: 5px;
 }
 
 .contacts{
@@ -129,6 +163,8 @@ div.contacts ul {
     min-height: 100%;
     z-index: -3;
 }
+<<<<<<< HEAD
+=======
 .overwatchtrailers1 {
   height: 400px;
   width: 400px;
@@ -162,6 +198,9 @@ border-radius: 13px;
   border-radius: 15px;
   width: 400px;
 }
+>>>>>>> cb05c9802cd62647de42b59ab9697860ef8c8fcd
+
+
 header {
   padding: 1rem;
 
