@@ -9,6 +9,8 @@
 .wrapper {
   display: flex;
   flex-direction: row;
+  padding: 10px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .tabs {
@@ -17,25 +19,39 @@
 }
 
 .box {
-  background-color: rgba(181, 243, 249, .5);
+  background-color: rgba(253, 136, 2, 0.412);
   width: 70%;
   margin: 0 auto;
-  border: #75a29c solid;
-  
+  border: #e77c34 solid;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Racing Sans One';
+  padding: 10px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
+
+
 .mapsname {
-  background-color: rgba(181, 243,  249, .4);
+  background-color: rgba(253, 136, 2, 0.412); 
   width: 30%;
-  border: #75a29c solid;
+  border: #e77c34 solid;
   padding: 15px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Racing Sans One';
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .gamemode {
-  background-color: rgba(181, 243,  249, .4);
+  background-color: rgba(253, 136, 2, 0.412);
   width: 30%;
-  border: #75a29c solid;
+  border: #e77c34 solid;
   padding: 15px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Racing Sans One';
+  text-shadow: 2px 2px 4px #000000;
 }
 
 
