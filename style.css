@@ -32,6 +32,24 @@
 
 
 
+div.logo {
+	position: absolute;
+	top: 0;
+left: 0;
+}
+
+div.logo:hover .logomenu {
+display: block;
+}
+
+.logomenu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+}
+
+
 .mapsname {
   background-color: rgba(253, 136, 2, 0.412); 
   width: 30%;
