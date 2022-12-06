@@ -171,14 +171,6 @@ div.contacts ul {
   list-style-type: none;
 
 }
-#homepagevideo{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    z-index: -3;
-}
 .overwatchtrailers1 {
   height: 400px;
   width: 400px;
