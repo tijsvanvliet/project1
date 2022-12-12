@@ -131,7 +131,7 @@ nav ul li a:link {
 
 div.background-media{
   background-image: url('./img/mediapage.png');
-  background-repeat: no-repeat;
+
   background-attachment: fixed;
   background-size: cover;
 }
@@ -226,12 +226,19 @@ border-radius: 13px;
   width: 400px;
 }
 
-<<<<<<< HEAD
-header{padding: 2rem;}
-=======
 
 header {
   padding: 1rem;
 
 }
->>>>>>> 5ff3e082728ca652ecd9536b117ea2a57d879f6c
+.heroespagebackground {
+  background-color: #3a3a3a;
+  border-radius: 15px;
+}
+#homepagebackground {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
