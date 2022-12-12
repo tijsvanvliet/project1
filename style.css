@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
   
+ #hover {
+  width: 1450px;
+  margin: 0 auto;
+ }
 
 
 .wrapper {
@@ -32,21 +36,30 @@
 
 
 
-div.logo {
-	position: absolute;
-	top: 0;
-left: 0;
+
+.right-menu {
+  position: relative;
+  display: inline-block;
+  float: left;
 }
 
-div.logo:hover .logomenu {
-display: block;
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 158px;
+  z-index: 1;
+}
+.dropdown-menu a:hover{
+  background-color: #000;
+  color: #fff;
 }
 
-.logomenu {
-display: none;
-position: absolute;
-top: 100%;
-left: 0;
+.right-menu:hover .dropdown-menu{
+  display: block;
+}
+.right-menu:hover .menu-button{
+background-color: transparent;
 }
 
 
