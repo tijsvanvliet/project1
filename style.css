@@ -1,20 +1,85 @@
-  
+#heroesbody {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightsalmon;
+  font-family: Mochiy Pop One;
+}
+
+#heroestabs {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tabs__head {
+  display: flex;
+  align-items: stretch;
+}
+
+.tabs__toggle {
+  display: flex;
+  width: 33.3334%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+  cursor: pointer;
+}
+
+.tabs__toggle.is-active {
+  background: #fff;
+}
+.tabs__content.is-active {
+  display: block;
+}
+
+.tabs__title {
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   * {
     box-sizing: border-box;
   }
   
  #hover {
-  width: 1450px;
+  width: 1400px;
   margin: 0 auto;
+  
+  font-size: 17px;
  }
-
+ a:link { text-decoration: none; }
+ a:visited { text-decoration: none; }
+ a:active { text-decoration: none; }
 
 .wrapper {
   display: flex;
   flex-direction: row;
   padding: 10px;
-  text-shadow: 2px 2px 4px #000000;
+  
 }
 
 .tabs {
@@ -46,16 +111,21 @@
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: rgba(255, 255, 255,0.412);
   min-width: 120px;
   z-index: 1;
   border: solid rgba(0, 0, 0, 0.4) 2px;
-  border-radius: 6px;
+  border-radius: 6px;  
   
 }
+
+.dropdown-menu a {
+  color: orange;
+}
+
 .dropdown-menu a:hover{
   background-color: ;
-  color: ;
+  color: black;
 }
 
 .right-menu:hover .dropdown-menu{
