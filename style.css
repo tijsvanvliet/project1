@@ -37,11 +37,7 @@
 
 
 
-.right-menu {
-  position: relative;
-  display: inline-block;
-  float: left;
-}
+
 
 .dropdown-menu {
   display: none;
@@ -53,10 +49,7 @@
   border-radius: 6px;
   
 }
-.dropdown-menu a:hover{
-  background-color: ;
-  color: ;
-}
+
 
 .right-menu:hover .dropdown-menu{
   display: block;
@@ -248,7 +241,7 @@ header {
 
 }
 .heroespagebackground {
-  background-color: #3a3a3a;
+  background-color: #0083fd;
   border-radius: 15px;
 }
 #homepagebackground {
@@ -257,4 +250,41 @@ header {
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
+}
+/* unsure of dit werkt 
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+*/ 
+/* de positie van de img */
+ul.heroestab{
+  list-style-type: none;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* achtergrond van de heroes img */
+ul.heroestab li {
+padding: 3rem;
+border-radius: 0.4rem;
+border: 2px solid #ffffff;
+background-color: hsla(0,0%,100%,.9);
+}
+/* de achtergrond van heroes page */
+body.heroes{
+  background-color: #006bcf;
+
+}
+/* herospage "heroes" naam die is nog niet af maar ik heb geen idee hoe ik hem er normaal er uit kan laten zien*/
+.heroesname{
+  padding: 1rem 2rem;
+  transition: 0.3s;
+  border-radius: 0.4rem;
+background-color: rgb(219, 219, 219);
+display: flex;
+justify-content: center;
+width: 20%;
 }

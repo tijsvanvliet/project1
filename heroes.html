@@ -1,116 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Heroes</title>
-<link rel="stylesheet" href="style.css">
-    <style>
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Heroes</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .tab {
+      overflow: hidden;
+display: flex;
+justify-content: center;
+text-align: center;
+margin: auto;
+    }
 
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-
-
-.tab button:hover {
-  background-color: #ddd;
-}
-
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  -webkit-animation: fadeEffect 1s;
-  animation: fadeEffect 1s;
-}
-
-@-webkit-keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
+    .tab button {
+      cursor: pointer;
+      padding: 1rem 2rem;
+      transition: 0.3s;
+      font-size: 17px;
+      border-radius: 0.4rem;
+border: 2px solid #575757;
+background-color: rgb(255, 255, 255);
+    }
 
 
 
-        .btn {
-          background-color: DodgerBlue;
-          border: none;
-          color: white;
-          padding: 12px 16px;
-          font-size: 16px;
-          cursor: pointer;
-          -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
-             text-decoration: none;
-             overflow: hidden;
-            cursor: pointer;
-            border-radius: 8px;
-}
-        
-        
-      
+    .tab button:hover {
+      background-color: rgb(196, 196, 196);
+    }
+
+    .tabcontent {
+      display: flex;
+      padding: 6px 12px;
+      -webkit-animation: fadeEffect 1s;
+      animation: fadeEffect 1s;
+    }
+
+    @-webkit-keyframes fadeEffect {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeEffect {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
 
 
 
-        </style>
+    .btn {
+      background-color: DodgerBlue;
+      border: none;
+      color: white;
+      padding: 12px 16px;
+      font-size: 16px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+  </style>
 </head>
-<body>
-    <button onclick="document.location='index.html'" hr]\ class="btn"><i class="fa fa-home"></i></button>
-    <h1>Heroes</h1>
-    <div class="tab">
-      <button class="tablinks" onclick="openCity(event, 'Tank')">Tank</button>
-      <button class="tablinks" onclick="openCity(event, 'Damage')">Damage</button>
-      <button class="tablinks" onclick="openCity(event, 'Support')">Support</button>
-    </div>
-<div class="heroespagebackground">
-    <div id="Damage" class="tabcontent">
-      <img src="../project1/img/ashe.png" alt="ashe" height="150" width="135">
+
+<body class="heroes">
+  <button onclick="document.location='index.html'" hr]\ class="btn"><i class="fa fa-home"></i></button>
+  <div class="heroesname">
+  <h1>Heroes</h1>
+</div>
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Tank')">Tank</button>
+    <button class="tablinks" onclick="openCity(event, 'Damage')">Damage</button>
+    <button class="tablinks" onclick="openCity(event, 'Support')">Support</button>
   </div>
+  <div class="heroespagebackground">
+    <div id="Damage" class="tabcontent">
+      <ul class="heroestab">
+    <li>  <img src="./img/heroes/ashe.png" alt="ASHE" height="150" width="150">
+      <li>  <img src="./img/heroes/bastion.png" alt="BASTION" height="150" width="150">
+        <li>  <img src="./img/heroes/cassity.png" alt="CASSITY" height="150" width="150">
+          <li>  <img src="./img/heroes/echo.png" alt="ECHO" height="150" width="150">
+            <li>  <img src="./img/heroes/genji.png" alt="GENJI" height="150" width="150">
+              <li>  <img src="./img/heroes/hanzo.png" alt="HANZO" height="150" width="150">
+                <li>  <img src="./img/heroes/junkrat.png" alt="JUNKRAT" height="150" width="150">
+                  <li>  <img src="./img/heroes/mei.png" alt="MEI" height="150" width="150">
+                    <li>  <img src="./img/heroes/pharah.png" alt="PHARAH" height="150" width="150">
+                      <li>  <img src="./img/heroes/reaper.png" alt="REAPER" height="150" width="150">
+                        <li>  <img src="./img/heroes/soljurn.png" alt="SOLJURN" height="150" width="150">
+                          <li>  <img src="./img/heroes/soldier.png" alt="SOLDIER" height="150" width="150">
+                            <li>  <img src="./img/heroes/sombra.png" alt="SOMBRA" height="150" width="150">
+                              <li>  <img src="./img/heroes/symetra.png" alt="SYMETRA" height="150" width="150">
+                                <li>  <img src="./img/heroes/torbjorn.png" alt="TORBJORN" height="150" width="150">
+                                  <li>  <img src="./img/heroes/tracer.png" alt="TRACER" height="150" width="150">
+                                    <li>  <img src="./img/heroes/widowmaker.png" alt="WIDOWMAKER" height="150" width="150">
+        </ul>
+    </div>
 
     <div id="Tank" class="tabcontent">
-      <img src="../project1/img/doomfist.png" alt="Doomfist" height="140" width="150">
-  </div>
+      <ul class="heroestab">
+      <li>  <img src="./img/heroes/doomfist.png" alt="Doomfist" height="150" width="150">
+        <li>     <img src="./img/heroes/DVA.png" alt="DVA" height="150" width="150">
+          <li>   <img src="./img/heroes/junkerqueen.png" alt="JUNKERQUEEN" height="150" width="150">
+            <li>  <img src="./img/heroes/orisa.png" alt="ORISA" height="150" width="150">
+              <li>  <img src="./img/heroes/ramattra.png" alt="RAMATTRA" height="150" width="150">
+                <li>  <img src="./img/heroes/reinhardt.png" alt="REINHARDT" height="150" width="150">
+                  <li>     <img src="./img/heroes/roadhog.png" alt="ROADHOG" height="150" width="150">
+                    <li>   <img src="./img/heroes/sigma.png" alt="SIGMA" height="150" width="150">
+                      <li>   <img src="./img/heroes/winston.png" alt="WINSTON" height="150" width="150">
+                        <li>   <img src="./img/heroes/hammond.png" alt="WRECKING BALL" height="150" width="150">
+                          <li>   <img src="./img/heroes/zarya.png" alt="ZARYA" height="150" width="150">
+      </ul>
+    </div>
 
     <div id="Support" class="tabcontent">
-        <img src="../project1/img/ana.png" alt="ANA" height="150" width="130">
-        <img src="../project1/img/briggiete.png" alt="ANA" height="150" width="130">
+      <ul class="heroestab">
+        <li>   <img src="./img/heroes/ana.png" alt="ANA" height="150" width="150">
+          <li>   <img src="./img/heroes/briggiete.png" alt="BRIGGIETE" height="150" width="150">
+            <li>  <img src="./img/heroes/baptiste.png" alt="BAPTISTE" height="150" width="150">
+              <li>  <img src="./img/heroes/kiriko.png" alt="KIRIKO" height="150" width="150">
+                <li>  <img src="./img/heroes/lucio.png" alt="LUCIO" height="150" width="150">
+                  <li>  <img src="./img/heroes/mercy.png" alt="MERCY" height="150" width="150">
+                    <li>    <img src="./img/heroes/moira.png" alt="MOIRA" height="150" width="150">
+                      <li> <img src="./img/heroes/zenyatta.png" alt="ZENYATTA" height="150" width="150">
+    </ul>
     </div>
-</div>
-    
+  </div>
 
-    <script>
-      function openCity(evt, cityName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
       }
-      </script>
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
 </body>
-    
+
 </html>
